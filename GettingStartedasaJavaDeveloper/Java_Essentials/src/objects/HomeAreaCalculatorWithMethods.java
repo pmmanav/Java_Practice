@@ -37,6 +37,7 @@ public class HomeAreaCalculatorWithMethods {
     /*
      * Arrays Example below
      * Variable arguments
+     * In a method with more than one paramete, only one parameter can be varargs parameter. It should be last parameter.
      */
     public static void calculateSum(int ...a){  // parameter is treated as an array
         int sum = 0;
